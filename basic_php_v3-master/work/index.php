@@ -1,6 +1,6 @@
 <!-- phpの開始終了タグとファイルを読み込むinckude -->
 <?php
-
+$title = '';
 include('_header.php');
 
 ?>
