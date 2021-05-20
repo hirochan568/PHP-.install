@@ -1,3 +1,10 @@
+<!-- PHPのコードをHTML外に定義して分かりやすくする -->
+<?php
+
+$message = 'こんにちは！' . date('l')
+
+?>
+
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -16,7 +23,7 @@
       <div class="info">
         <h1>山田太郎</h1>
         <!-- ↓HTMLにPHPのコードを埋め込む -->
-        <p><?php echo 'こんにちは！' . date('l'); ?></p>
+        <p><?= $message; ?></p>
         <ul>
           <li>
             <a href="https://dotinstall.com" target="_blank">
