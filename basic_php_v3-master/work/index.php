@@ -1,4 +1,4 @@
-<!-- phpの開始終了タグとファイルを読み込むinckude -->
+<!-- phpの開始終了タグとファイルを読み込むinclude -->
 <?php
 $title = '';
 include('_header.php');
